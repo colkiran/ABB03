@@ -1,0 +1,187 @@
+-> Variables
+
+-> Numbers
+     * integers
+     * float
+     * complex
+
+-> Operators
+     * arithmetic Operators
+     * augmentor Operators
+     * Logical Operators
+     * Comparison Operators
+     * Bitwise Operators
+     * Ternary Operator
+
+-> Loops and Control structures
+     * if conditions
+     * for loops
+          a. continue
+          b. break
+          c. else
+     * while loops
+
+-> Strings
+    
+     Maketrans, Translate
+
+Maketrans
+---------
+conversion of text byte by byte
+
+apple => replace all a's by z, p's x, l by y, e by w
+
+apple => zxxyw
+
+How memory is allocated in python
+---------------------------------
+
+Python Data Structures
+----------------------
+1. List
+2. Dictionary
+3. Tuple
+4. Set
+
+List
+----
+list are similar to arrays
+
+what is an array?
+1. collection of homogenous data
+2. memory allocation is contagious
+
+Lists
+-----
+1. collection of heterogenous data
+2. memory allocation is not contagious
+3. its sub scriptable (indexed)
+4. its mutable
+5. its an ordered collection
+6. lists are stored in [ ]
+7. they are static
+
+
+lst = [1, 2, 3, 4, 5]  => memory - 3, 1, 4, 5, 2 -unordered
+
+functions to manipulate the list
+--------------------------------
+'append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort'
+
+add new elements into a list
+----------------------------
+1. append
+2. extend
+3. insert
+
+while all C arrays declared with a fixed size are "static" in terms of their unchangeable size.
+
+
+remove values from a list
+-------------------------
+pop
+remove
+clear
+
+count, index, copy, sort, reverse
+
+https://pythontutor.com/visualize.html#mode=edit
+
+
+Dictionary
+----------
+dictionary is also called as associative arrays
+
+index =   0    1    2    3    4    5
+l1    = ['a', 'b', 'c', 'd', 'e', 'f']
+
+associative array = {0: 'a', 1: 'b', 2: 'c', 3: 'd', 4: 'e', 5: 'f'}
+
+0, 1, 2, 3, 4, 5 => keys
+'a', 'b', 'c', 'd', 'e', 'f' => values
+
+properties of the keys
+----------------------
+keys are user defined
+keys are unique
+
+emp = {'empid': 'EMP001', 'ename': 'Jack', 'desig': 'MGR', 'age': 35, 'dept': 'Finance', 'sal': 125000}
+
+Dictionary
+----------
+1. keys are unique
+2. dictionary is unordered
+3. it is mutable
+4. are enclosed in {k1: v1, k2: v2.....}
+
+functions to manipulate a dictionary
+------------------------------------
+'clear', 'copy', 'fromkeys', 'get', 'items', 'keys', 'pop', 'popitem', 'setdefault', 'update', 'values'
+
+
+Tuples
+------
+tuples are immutable lists
+
+tuples are enclosed in ()
+
+set
+----
+1. set is unordered collection 
+2. sets are always unique
+3. sets cannot be sub scriptable (cannot be indexed)
+4. sets are mutable
+5. sets are enclosed in {1, 2, 3, 4, 5}
+
+
+functions
+---------
+reusability of code
+
+passing arguments
+
+return value
+
+variable length arguments
+
+pass by value 
+pass by ref
+
+
+introduction to oops
+--------------------
+what is the use of oops?
+
+1. Inheritance 		- reuse the old code or logic
+2. Polymorphism
+3. Abstraction
+4. Encapsulation 
+
+
+class Withdraw:
+    cheque
+    Demand Draft
+
+class DebitCard(Withdraw)
+
+
+class OnlineTrans(DebitCard)
+	def cheque():
+	   print("do not accept cheques")
+    
+
+
+ATM
+---
+shopping card	- 40k per day
+gold card	- 1 lakh per day
+platinum card	- 2 lakhs per day
+
+
+ATM
+---
+keypad
+display unit
+money gets disposed
+
+
